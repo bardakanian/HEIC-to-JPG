@@ -79,3 +79,11 @@ Then start the app and convert a known HEIC image. Run the same conversion again
 ## Privacy
 
 The application does not upload images or require an account. All conversion happens locally.
+
+## Development approach
+
+Developed with AI-assisted tools under human direction, review, testing, and refinement.
+
+## License
+
+This project is available under the [MIT License](LICENSE).
