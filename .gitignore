@@ -1,19 +1,44 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
+# Virtual environments
 .venv/
 venv/
+env/
 
-# IDEs and editors
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS and editors
+.DS_Store
+Thumbs.db
 .idea/
 .vscode/
 
-# Operating systems
-.DS_Store
-Thumbs.db
-
-# Build and packaging output
+# Build output
 build/
 dist/
 *.egg-info/
+*.app/
+
+# Private or runtime data
+.env
+.env.*
+*.cookies
+cookies*.txt
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Large media
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.wav
+*.flac
+
+# Local notes for Claude Code
+CLAUDE.md

@@ -55,11 +55,20 @@ Drag images into the window (folders are also accepted), choose the output and q
 
 If a destination already exists, the app lets you replace it or skip it. Transparent images are flattened onto white because JPEG does not support transparency.
 
+### macOS desktop launcher
+
+```bash
+.venv/bin/python make_launcher.py ~/Desktop
+```
+
+This creates a small `HEIC to JPG.app` that runs `main.py` from this folder with its `.venv`, so code changes apply the next time you open it. Logs go to `~/Library/Logs/HEIC to JPG.log`. Run it again only if you move the project folder.
+
 ## Project structure
 
 ```text
 .
 ├── main.py           # Desktop interface and conversion logic
+├── make_launcher.py  # Builds the macOS desktop launcher
 ├── requirements.txt  # Runtime dependencies
 └── README.md
 ```
